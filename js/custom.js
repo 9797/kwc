@@ -108,18 +108,13 @@
 
 	//jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
-		$('.navbar a,.btn,.to-top').bind('click', function(event) {
+		$('.navbar a,.btn,.down-box').bind('click', function(event) {
 			var $anchor = $(this);
+			console.log($(this))
 			$('html').stop().animate({
 				scrollTop: $($anchor.attr('href')).offset().top - 50
 			}, 1500, 'easeInOutExpo');
-			event.preventDefault();
-		});
-		$('.down-box').bind('click', function(event) {
-			var $anchor = $(this);
-			$('html').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 50
-			}, 1500, 'easeInOutExpo');
+			console.log('sdsd')
 			event.preventDefault();
 		});
 	});
