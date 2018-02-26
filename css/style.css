@@ -152,8 +152,6 @@ color:#fff;
         transform:rotate(360deg);
 opacity:.8;
 }
-.welcome-text{
-}
 
 
 /* ------------------------------------	*/
@@ -1076,4 +1074,12 @@ background:#2C3E50;
 }
 .setting_panel .color_lists span#magenta_color{
 background:#8E44AD;
+}
+
+.contact-me .me .fa {
+height: 25px;
+width: 25px;
+font-size: 15px;
+line-height: 25px;
+padding: 0;
 }
