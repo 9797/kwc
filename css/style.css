@@ -285,15 +285,11 @@ font-weight:300;
 margin:0 0 15px;
 text-transform:uppercase;
 }
-.features-item p{
-}
 
 /* ------------------------------------	*/
 /*  		 5. Portfolio Page			*/
 /* -----------------------------------	*/
 
-ul.portfolio-filters{
-}
 ul.portfolio-filters li{
 border:2px solid #86989d;
 color:#86989d;
@@ -308,8 +304,6 @@ letter-spacing:2px;
 ul.portfolio-filters li.active, ul.portfolio-filters li:hover{
 background:#86989d;
 color:#fff;
-}
-#portfolio_list{
 }
 #portfolio_list .pitem{
 position:relative;
@@ -442,8 +436,6 @@ opacity:.6;
 .clients-list li.active a:before , .clients-list li:hover a:before{
 display:none;
 }
-#testimonials .col-lg-12{
-}
 
 /* ------------------------------------	*/
 /*  		 7. Parallax Page			*/
@@ -504,8 +496,6 @@ color:#57bddb;
 text-transform:uppercase;
 font-weight:300;
 }
-.team-item p{
-}
 .social-profile{
 padding-bottom:20px;
 margin-bottom:20px;
@@ -538,8 +528,6 @@ opacity:.8;
 /*  		 9. Pricing Page			*/
 /* -----------------------------------	*/
 
-.price-list{
-}
 .price-title{
 background:none repeat scroll 0 0 #ecf0f3;
 border:1px solid #ddd;
@@ -598,8 +586,6 @@ letter-spacing:2px;
 margin:10px 0;
 text-transform:uppercase;
 }
-.popular{
-}
 .popular .price-title{
 background-color:#57bddb;
 }
@@ -653,8 +639,6 @@ text-transform:uppercase;
 /* -----------------------------------	*/
 
 
-.partner-list{
-}
 .single-partner{
 margin:0 5px;
 }
@@ -676,10 +660,6 @@ line-height:25px;
 margin-right:10px;
 text-align:center;
 width:30px;
-}
-.owl-buttons div.owl-prev{
-}
-.owl-buttons div.owl-next{
 }
 .owl-buttons div:hover{
 opacity:.6;
@@ -725,10 +705,6 @@ text-decoration:none;
 .featured-content{
 position:relative;
 }
-.blog-list{
-}
-.single-blog{
-}
 .single-blog h2{
 font-family:open sans;
 font-size:25px;
@@ -744,8 +720,6 @@ margin-top:15px;
 .single-blog a.btn-bordered{
 margin-top:0;
 }
-.featured-content{
-}
 .featured-content .portfolio-detail{
 display:none
 }
@@ -760,11 +734,8 @@ display:block
 #contact{
 background:#ECF0F3;
 }
-.contact-form{
-}
 #ajax-contact {overflow:hidden;margin-bottom:20px}
-.form-group{
-}
+
 .form-group label{
 font-weight:300;
 text-transform:uppercase;
@@ -779,8 +750,6 @@ border:1px solid #57bddb;
 -webkit-box-shadow:0 0 0;
    -moz-box-shadow:0 0 0;
         box-shadow:0 0 0;
-}
-.form-group textarea{
 }
 .form-group textarea:focus{
 /*box-shadow*/
@@ -1011,9 +980,6 @@ cursor:pointer;
 .setting_panel i#panel_open{
 display:none;
 }
-.setting_panel i#panel_close{
-
-}
 .setting_panel .color_change{
 text-align:center;
 margin-bottom:10px;
@@ -1092,4 +1058,8 @@ background:#8E44AD;
   width: 60px;
   line-height: 60px;
   padding: 0;
+}
+.footer-box {
+  width: 100%;
+  text-align: center;
 }
