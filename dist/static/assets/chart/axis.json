@@ -1,0 +1,73 @@
+{
+  "legend": {
+    "left": 0,
+    "top": "25px",
+    "textStyle": {
+      "color": "#ffffff"
+    }
+  }, 
+  "grid": {
+    "top": "60px",
+    "left": "5px",
+    "right": "4%",
+    "bottom": "3%",
+    "containLabel": true
+  },
+  "xAxis":  {
+    "type": "category",
+    "axisLabel":{"interval":0},
+    "data": ["1月", "2月", "3月", "4月", "5月", "6月", "7月"],
+    "axisLine": {
+      "lineStyle": {
+        "color": "#ffffff"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "value",
+    "axisLine": {
+      "lineStyle": {
+        "color": "#ffffff"
+      }
+    }
+  },
+  "animation": true,
+  "color": ["#c0c0c0","#ffff80", "#CCCC99", "#CCFFCC", "#0EB3F1","#749f83", "#CCCCCC", "#bda29a","#6e7074", "#546570", "#c4ccd3"],
+  "series": [
+    {
+      "name": "直接访问",
+      "type": "bar",
+      "stack": "默认分组",
+      "label": {"show": true,"position": "insideRight"},
+      "data": [320, 302, 301, 334, 390, 330, 320]
+    },
+    {
+      "name": "邮件营销",
+      "type": "bar",
+      "stack": "默认分组",
+      "label": {"show": true,"position": "insideRight"},
+      "data": [120, 132, 101, 134, 90, 230, 210]
+    },
+    {
+      "name": "联盟广告",
+      "type": "bar",
+      "stack": "默认分组",
+      "label": {"show": true,"position": "insideRight"},
+      "data": [-220, 182, 191, 234, 290, 330, 310]
+    },
+    {
+      "name": "视频广告",
+      "type": "bar",
+      "stack": "默认分组",
+      "label": {"show": true,"position": "insideRight"},
+      "data": [150, 212, 201, 154, 190, 330, 410]
+    },
+    {
+      "name": "搜索引擎",
+      "type": "bar",
+      "stack": "默认分组",
+      "label": {"show": true,"position": "insideRight"},
+      "data": [820, 832, 901, 934, 1290, 1330, 1320]
+    }
+  ]   
+}

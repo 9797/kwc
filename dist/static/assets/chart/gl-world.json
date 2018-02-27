@@ -1,0 +1,36 @@
+{
+  "animation": true,
+  "geo3D": {
+    "map": "world", 
+    "shading": "lambert", 
+    "temporalSuperSampling": {
+      "enable": true
+    },
+    "left": 0,
+    "right": 0,
+    "viewControl":{
+      "distance": 75,
+      "alpha": 50
+    },
+    "itemStyle":{
+      "areaColor": "#FFFFFF",
+      "opacity":1,
+      "borderWidth": 0.4,
+      "borderColor": "#000"
+    },
+    "regionHeight": 0.5
+  }, 
+  "series": [
+    {
+      "type": "bar3D", 
+      "coordinateSystem": "geo3D", 
+      "shading": "lambert",
+      "barSize": 0.1, 
+      "minHeight": 0.2, 
+      "silent": true, 
+      "itemStyle": {
+        "color": "orange"
+      }
+    }
+  ]
+}

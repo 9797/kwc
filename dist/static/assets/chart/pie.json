@@ -1,0 +1,30 @@
+{
+  "legend": {"show": false},
+  "animation": true,
+  "color": ["#c0c0c0","#ffff80", "#CCCC99", "#CCFFCC", "#0EB3F1","#749f83", "#CCCCCC", "#bda29a","#6e7074", "#546570", "#c4ccd3"],
+  "series": [
+    {
+      "name": "pie",
+      "type": "pie",
+      "radius": "75%",
+      "center": ["50%", "50%"],
+      "data": [
+        {"value": 235, "name": "数据接入"}, 
+        {"value": 274, "name": "数据输出"}, 
+        {"value": 310, "name": "储存数据"}, 
+        {"value": 335, "name": "数据分发"}, 
+        {"value": 400, "name": "导出数据"}
+      ], 
+      "roseType": false, 
+      "label": {"formatter": "{b}\n{c}","show": true},
+      "labelLine": {"show": true},
+      "tooltip": {
+        "show":false
+      },
+      "itemStyle": {
+        "emphasis": {"shadowBlur": 10,"shadowOffsetX": 0,"shadowColor": "rgba(0, 0, 0, 0.5)","left": 0,"right": 0,"top": 0,"bottom": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "animation": true,
+  "color": ["#c0c0c0","#ffff80", "#CCCC99", "#CCFFCC", "#0EB3F1","#749f83", "#CCCCCC", "#bda29a","#6e7074", "#546570", "#c4ccd3"], 
+  "series": [
+    {
+      "type": "wordCloud", 
+      "gridSize": 20, 
+      "sizeRange": [12, 50], 
+      "rotationRange": [0, 0], 
+      "shape": "circle",
+      "textStyle": {"color": "#fff"}, 
+      "data": [
+        {"name":"SQL注入","value":10000},
+        {"name":"PHP代码注入","value":6181},
+        {"name":"百度爬虫","value":4386},
+        {"name":"雅虎爬虫","value":4055},
+        {"name":"跨站脚本注入","value":2467},
+        {"name":"谷歌爬虫","value":2244},
+        {"name":"Planet Fitness","value":1898},
+        {"name":"360webscan 扫描器","value":1484},
+        {"name":"必应爬虫","value":1112},
+        {"name":"360搜索爬虫","value":965},
+        {"name":"命令注入","value":847},
+        {"name":"提交方法不被允许","value":265}
+      ]
+    }
+  ]
+}

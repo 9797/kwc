@@ -1,0 +1,9 @@
+{
+  "animation": true,
+  "series": [{
+    "name": "gauge",
+    "type": "gauge",
+    "detail": {"formatter": "{value}"},
+    "data": [{"value": 34}]
+  }]
+}

@@ -1,0 +1,61 @@
+{
+  "geo": [{
+    "map": "world",
+    "aspectScale": 1,
+    "roam": true,
+    "left": 20,
+    "right": 20,
+    "label": {
+      "show": false,
+      "textStyle": {"color": "#ffffff","fontSize": 12}
+    },
+    "itemStyle": {
+      "areaColor": "#d8dffa",
+      "borderColor": "#1a1b1e"
+    }
+  }],
+  "animation": true,
+  "color": ["#c0c0c0","#ffff80", "#CCCC99", "#CCFFCC", "#0EB3F1","#749f83", "#CCCCCC", "#bda29a","#6e7074", "#546570", "#c4ccd3"],
+  "series": [{
+    "name": " Top10",
+    "type": "lines",
+    "zlevel": 1,
+    "effect": {
+      "show": true,
+      "period": 6,
+      "trailLength": 0.2,
+      "color": "#96db4f",
+      "symbolSize": 3
+    },
+    "lineStyle": {
+      "color": "#2d5681",
+      "width": 1,
+      "curveness": 0.2
+    },
+    "data": [{
+      "fromName": "北京",
+      "toName": "上海",
+      "coords": [[116.4551, 40.2539], [121.4648, 31.2891]]
+    }]
+  },{
+    "name": "攻击次数",
+    "type": "scatter",
+    "coordinateSystem": "geo",
+    "data": [
+      {"name": "海门", "value": [ 121.15, 31.89, 9 ]},
+      {"name": "鄂尔多斯", "value": [ 109.781327, 39.608266, 12 ]},
+      {"name": "湘潭", "value": [ 112.91, 27.87, 154 ]},
+      {"name": "金华", "value": [ 119.64, 29.12, 157 ]}
+    ],
+    "symbolSize": 22,
+    "label": {
+      "show": true
+    },
+    "itemStyle": {
+      "emphasis": {
+        "borderColor": "#fff",
+        "borderWidth": 1
+      }
+    }
+  }]
+}
