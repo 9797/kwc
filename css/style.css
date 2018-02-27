@@ -1075,3 +1075,21 @@ background:#2C3E50;
 .setting_panel .color_lists span#magenta_color{
 background:#8E44AD;
 }
+.contact-me .me {
+  display: flex;
+}
+.contact-me .me .item {
+  width: 50%;
+  font-size: 1.5rem;
+  overflow: hidden;
+  text-align: left;
+  height: 70px;
+  line-height: 70px;
+}
+.contact-me .me .fa {
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  padding: 0;
+}
