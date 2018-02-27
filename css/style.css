@@ -1044,22 +1044,33 @@ background:#8E44AD;
 .contact-me .me {
   display: flex;
 }
-.contact-me .me .item {
-  width: 50%;
-  font-size: 1.5rem;
+.contact-me .item {
+  font-size: 1.2rem;
   overflow: hidden;
   text-align: left;
-  height: 70px;
-  line-height: 70px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
 }
-.contact-me .me .fa {
+.contact-me .container-item .fa {
   text-align: center;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
+  font-size: 1.6rem;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
   padding: 0;
 }
 .footer-box {
   width: 100%;
   text-align: center;
+}
+.container-box .container-item {
+  float: left;
+}
+.container-box img {
+  height: 340px;
+  margin-right: 100px;
+}
+.clear {
+  clear: both;
 }
