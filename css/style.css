@@ -467,7 +467,6 @@ background:#333;
 .call_to_action{
 padding:100px 0;
 }
-
 /* ------------------------------------	*/
 /*  		 8. Team Page				*/
 /* -----------------------------------	*/
@@ -732,7 +731,20 @@ display:block
 /* -----------------------------------	*/
 
 #contact{
-background:#ECF0F3;
+  background:url(../img/demo-images/parallax-bg2.jpg) no-repeat scroll center top;
+  /*background-size*/
+  -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+      -o-background-size:/*@@prefixmycss->No equivalent*/;
+          background-size:cover;
+}
+.cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(187, 222, 219, 0.5);
 }
 #ajax-contact {overflow:hidden;margin-bottom:20px}
 
@@ -1051,6 +1063,7 @@ background:#8E44AD;
   height: 40px;
   line-height: 40px;
   margin-bottom: 30px;
+  color: #333;
 }
 .contact-me .container-item .fa {
   text-align: center;
