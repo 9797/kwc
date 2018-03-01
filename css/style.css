@@ -1063,7 +1063,8 @@ background:#8E44AD;
   height: 40px;
   line-height: 40px;
   margin-bottom: 30px;
-  color: #333;
+  color: white;
+  font-weight: bold;
 }
 .contact-me .container-item .fa {
   text-align: center;
