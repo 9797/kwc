@@ -75,8 +75,8 @@
 		
 		// 改变视频大小
 		var lala = document.documentElement.clientWidth / document.documentElement.clientHeight
+		console.log(lala)
 		if (lala > 1.77) {
-			console.log('sddd')
 			$("#homevideo")[0].style.width = '100%'
 		} else {
 			$("#homevideo")[0].style.height = '100%'
