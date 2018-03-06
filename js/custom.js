@@ -84,7 +84,7 @@
 		var down = $('#down')
 		var opacity = 0.3
 		var order = false
-		setInterval(() => {
+		setInterval(function () {
 			if (opacity <= 0 || opacity >= 1) {
 				order = !order
 			}
