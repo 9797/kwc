@@ -82,8 +82,8 @@
 			$("#homevideo")[0].style.height = '100%'
 		}
 		var down = $('#down')
-		let opacity = 0.3
-		let order = false
+		var opacity = 0.3
+		var order = false
 		setInterval(() => {
 			if (opacity <= 0 || opacity >= 1) {
 				order = !order
