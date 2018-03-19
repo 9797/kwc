@@ -1085,6 +1085,13 @@ background:#8E44AD;
   height: 340px;
   margin-right: 100px;
 }
+.contact-us {
+  color: white;
+  font-weight: bold;
+}
+.btn {
+  padding: 10px 16px;
+}
 .clear {
   clear: both;
 }
